@@ -1,0 +1,79 @@
+:root{
+    --primary :red;
+--secondary :blue;
+}
+*{
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+
+}
+body{
+    background-color:white;
+}
+.bod{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+
+}
+.halfbod{
+    width: 100%;
+    max-width: 400px;
+    background-color: lightcoral;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 3px blue;
+   
+
+
+}
+.span{
+    padding: 16px;
+    text-align: right;
+
+
+    background-color: black;
+    color: red;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+.span span{
+    font-size: 14px;
+    color: yellow;
+}
+button{
+    border: none;
+    appearance: none;
+    outline: none;
+    color: aqua;
+    font-size: 20px;
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover{
+opacity: 0.9;
+}
+.operators{
+
+    display: flex;
+}
+.operators button{
+    flex: 1 1 0%;
+    background-color: var(--primary);
+    font-weight: 700;
+}
+.digits{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.digits button{
+    flex : 1 1 33.33333;
+    max-width: 33.3333;
+background-color: orangered;
+}
